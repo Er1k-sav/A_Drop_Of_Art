@@ -114,7 +114,7 @@ body {
     width: 3%;
     z-index: 5;
     fill: white;
-    animation: longate 2s backwards infinite;
+    animation: longate 5s backwards infinite;
     transition: 1s;
     position: absolute;
     top: 0;
