@@ -32,51 +32,52 @@ body {
     backdrop-filter: blur(150px);
 }
 
-div#credits {
-    width: 20%;
+#credits {
+    width: 30%;
     height: 60%;
-    margin: 1%;
+    margin: 2%;
     background-color: #545475;
     border-radius: 5px;
     font-family: monospace;
     color: white;
     font-size: 1.5vh;
     text-align: center;
-    padding-top: 1.8%;
+    padding-top: 2%;
 }
 
-div#download {
-    width: 20%;
+#download {
+    width: 30%;
     height: 60%;
-    margin: 1%;
+    margin: 2%;
     background-color: #545475;
     border-radius: 5px;
     font-family: monospace;
     color: white;
     font-size: 1.5vh;
     text-align: center;
-    padding-top: 1.8%;
+    padding-top: 2%;
     position: relative;
 }
 
-div#info {
-    width: 20%;
+#info {
+    width: 30%;
     height: 60%;
-    margin: 1%;
+    margin: 2%;
     background-color: #545475;
     border-radius: 5px;
     font-family: monospace;
     color: white;
     font-size: 1.5vh;
     text-align: center;
-    padding-top: 1.8%;
+    padding-top: 2%;
     position: relative;
 }
 
-div#bar {
+#bar {
     width: 30%;
     height: 4%;
     position: absolute;
+    top: 0;
     border-radius: 5px;
     background-color: #615e7754;
     z-index: 5;
@@ -85,7 +86,7 @@ div#bar {
     display: flex;
 }
 
-div#footer {
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
