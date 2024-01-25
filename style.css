@@ -35,7 +35,7 @@ body {
     font-family: monospace;
     text-shadow: 1px -1px black;
     font-size: 1.5vh;
-    opacity: 0;
+    opacity: 1;
     transition: 2s;
     animation: blink 2s;
 }
