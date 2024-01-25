@@ -20,7 +20,8 @@ button.addEventListener("click", (e) => {
   const menu = document.getElementById("menu");
   arrow.style.top = "1px";
   const timer = setInterval(() => {
-    arrow.style.top = parseInt(arrow.style.top.split("px")[0]) + 1 + "px";
+    arrow.style.top = parseInt(arrow.style.top.split("px")[0]) + 2 + "px";
+    arrow.style.visibility = "hidden";
   }, 1);
 
   setTimeout(() => {
@@ -33,3 +34,39 @@ button.addEventListener("click", (e) => {
     }, 300);
   }, 1500);
 });
+
+
+const menu = () => {
+    const creditsBT1 = document.getElementById("point1");
+    const creditsBT2 = document.getElementById("scrolltext1");
+
+    const infoBT1 = document.getElementById("point2");
+    const infoBT2 = document.getElementById("scrolltext2");
+
+    const downloadBT1 = document.getElementById("point3");
+    const downloadBT2 = document.getElementById("scrolltext3");
+
+    creditsBT2.addEventListener("click", () => {
+        infoBT1.style.backgroundColor = none;
+        downloadBT1.style.backgroundColor = none;
+
+        creditsBT1.style.backgroundColor = "white";
+        creditsBT2.style.color = "coral";
+    });
+
+    infoBT2.addEventListener("click", () => {
+        creditsBT1.style.backgroundColor = none;
+        downloadBT1.style.backgroundColor = none;
+
+        infoBT1.style.backgroundColor = "white";
+        infoBT2.style.color = "coral";
+    });
+
+    downloadBT2.addEventListener("click", () => {
+        creditsBT1.style.backgroundColor = none;
+        infoBT1.style.backgroundColor = none;
+
+        downloadBT1.style.backgroundColor = "white";
+        downloadBT2.style.color = "coral";
+    });
+}
