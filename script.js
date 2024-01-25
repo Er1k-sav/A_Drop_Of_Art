@@ -23,7 +23,7 @@ button.addEventListener("click", (e) => {
   }, 1);
 
   setTimeout(() => {
-    timer.clearInterval();
+    clearInterval(timer);
     button.style.opacity = 0;
   }, 1000);
 });
