@@ -17,7 +17,7 @@ button.addEventListener("click", (e) => {
 
   
   const arrow = document.getElementById("arrowsvg");
-
+  arrow.style.top = "1px";
   const timer = setInterval(() => {
     arrow.style.top = parseInt(arrow.style.top.split("px")[0]) + 1 + "px";
   }, 1);
