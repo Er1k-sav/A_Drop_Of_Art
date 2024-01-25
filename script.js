@@ -24,6 +24,6 @@ button.addEventListener("click", (e) => {
 
   setTimeout(() => {
     timer.clearInterval();
-    button.opacity = 0;
-  }, 300);
+    button.style.opacity = 0;
+  }, 1000);
 });
