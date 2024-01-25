@@ -24,10 +24,10 @@ button.addEventListener("click", (e) => {
     arrow.style.visibility = "hidden";
   }, 1);
 
+  button.style.opacity = 0;
+  button.style.visibility = "hidden";
   setTimeout(() => {
     clearInterval(timer);
-    button.style.opacity = 0;
-    button.style.visibility = "hidden";
     setTimeout(() => {
         menu.style.opacity = 1;
         menu.style.visibility = "visible";
@@ -69,4 +69,6 @@ const menu = () => {
         downloadBT1.style.backgroundColor = "white";
         downloadBT2.style.color = "coral";
     });
-}
+};
+
+menu();

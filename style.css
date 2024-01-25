@@ -239,3 +239,11 @@ div#line {
     position: relative;
     left: 51%;
 }
+
+div#cred {
+    position: absolute;
+    width: 83%;
+    right: 0;
+    height: 100%;
+    background-color: #ff000000;
+}
