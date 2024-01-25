@@ -17,4 +17,10 @@ app.get("/style.css", (req, res) => {
     res.type("css");
 });
 
+app.get("/script.js", (req, res) => {
+    res.sendFile(__dirname + "/script.js");
+    res.type("application/javascript");
+});
+
+
 app.listen(8080);
