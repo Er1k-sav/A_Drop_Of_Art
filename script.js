@@ -17,6 +17,7 @@ button.addEventListener("click", (e) => {
 
   
   const arrow = document.getElementById("arrowsvg");
+  const menu = document.getElementById("menu");
   arrow.style.top = "1px";
   const timer = setInterval(() => {
     arrow.style.top = parseInt(arrow.style.top.split("px")[0]) + 1 + "px";
@@ -25,5 +26,10 @@ button.addEventListener("click", (e) => {
   setTimeout(() => {
     clearInterval(timer);
     button.style.opacity = 0;
-  }, 500);
+    button.style.visibility = "hidden";
+    setTimeout(() => {
+        menu.style.opacity = 1;
+        menu.style.visibility = "visible";
+    }, 300);
+  }, 1500);
 });
