@@ -47,24 +47,24 @@ const menu = () => {
     const downloadBT2 = document.getElementById("scrolltext3");
 
     creditsBT2.addEventListener("click", () => {
-        infoBT1.style.backgroundColor = none;
-        downloadBT1.style.backgroundColor = none;
+        infoBT1.style.backgroundColor = "none";
+        downloadBT1.style.backgroundColor = "none";
 
         creditsBT1.style.backgroundColor = "white";
         creditsBT2.style.color = "coral";
     });
 
     infoBT2.addEventListener("click", () => {
-        creditsBT1.style.backgroundColor = none;
-        downloadBT1.style.backgroundColor = none;
+        creditsBT1.style.backgroundColor = "none";
+        downloadBT1.style.backgroundColor = "none";
 
         infoBT1.style.backgroundColor = "white";
         infoBT2.style.color = "coral";
     });
 
     downloadBT2.addEventListener("click", () => {
-        creditsBT1.style.backgroundColor = none;
-        infoBT1.style.backgroundColor = none;
+        creditsBT1.style.backgroundColor = "none";
+        infoBT1.style.backgroundColor = "none";
 
         downloadBT1.style.backgroundColor = "white";
         downloadBT2.style.color = "coral";
