@@ -43,11 +43,11 @@ const menu = () => {
 
     const infoBT1 = document.getElementById("point2");
     const infoBT2 = document.getElementById("scrolltext2");
-    const infoBOX = document.getElementById("info");
+    const infoBOX = document.getElementById("inf");
 
     const downloadBT1 = document.getElementById("point3");
     const downloadBT2 = document.getElementById("scrolltext3");
-    const downloadBOX = document.getElementById("download");
+    const downloadBOX = document.getElementById("downl");
 
     creditsBT2.addEventListener("click", () => {
         infoBT1.style.backgroundColor = "transparent";
