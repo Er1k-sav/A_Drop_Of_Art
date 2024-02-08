@@ -39,12 +39,15 @@ button.addEventListener("click", (e) => {
 const menu = () => {
     const creditsBT1 = document.getElementById("point1");
     const creditsBT2 = document.getElementById("scrolltext1");
+    const credBOX = document.getElementById("cred");
 
     const infoBT1 = document.getElementById("point2");
     const infoBT2 = document.getElementById("scrolltext2");
+    const infoBOX = document.getElementById("info");
 
     const downloadBT1 = document.getElementById("point3");
     const downloadBT2 = document.getElementById("scrolltext3");
+    const downloadBOX = document.getElementById("download");
 
     creditsBT2.addEventListener("click", () => {
         infoBT1.style.backgroundColor = "transparent";
@@ -52,6 +55,9 @@ const menu = () => {
 
         creditsBT1.style.backgroundColor = "white";
         creditsBT2.style.color = "coral";
+        credBOX.style.visibility = "visible";
+        infoBOX.style.visibility = "hidden";
+        downloadBOX.style.visibility = "hidden";
         infoBT2.style.color = "white";
         downloadBT2.style.color = "white";
     });
@@ -62,6 +68,9 @@ const menu = () => {
 
         infoBT1.style.backgroundColor = "white";
         infoBT2.style.color = "coral";
+        credBOX.style.visibility = "hidden";
+        infoBOX.style.visibility = "visible";
+        downloadBOX.style.visibility = "hidden";
         downloadBT2.style.color = "white";
         creditsBT2.style.color = "white";
     });
@@ -72,6 +81,9 @@ const menu = () => {
 
         downloadBT1.style.backgroundColor = "white";
         downloadBT2.style.color = "coral";
+        credBOX.style.visibility = "hidden";
+        infoBOX.style.visibility = "hidden";
+        downloadBOX.style.visibility = "visible";
         infoBT2.style.color = "white";
         creditsBT2.style.color = "white";
     });
