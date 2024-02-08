@@ -228,6 +228,7 @@ div#scroll {
     top: -65%;
     left: 200%;
     cursor: pointer;
+    transition: 200ms;
 }
 
 #line {
@@ -246,6 +247,59 @@ div#scroll {
     right: 0;
     height: 100%;
     background-color: #ff000000;
+}
+
+#downlforwindows {
+    position: absolute;
+    display: flex;
+    bottom: 15%;
+    border: none;
+    background-color: #406e9542;
+    font-family: monospace;
+    color: white;
+    font-weight: 1000;
+    border-radius: 5px;
+    height: 10%;
+    width: 25%;
+    box-shadow: 0px 4px 2px 1px rgb(0 0 0 / 4%);
+    z-index: 8;
+    font-size: 2vh;
+    cursor: pointer;
+    transition: box-shadow 200ms ease-in-out;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+#sysrequirementsmin {
+    position: relative;
+    top: 14%;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sysrequirementsmax {
+    position: relative;
+    top: -46%;
+    left: 50%;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sysrequirements {
+    color: #9f8888;
+    font-family: monospace;
+    font-size: 2.3vh;
+    position: relative;
+    text-decoration: solid;
+    top: 12%;
+    height: 7%;
+    border-bottom: 2px solid white;
+    border-bottom-right-radius: 3%;
 }
 
 #profile {
