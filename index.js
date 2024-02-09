@@ -25,15 +25,20 @@ app.get("/script.js", (req, res) => {
 app.get("/diatomea.jpg", (req, res) => {
     res.sendFile(__dirname + "/immagini/diatomea.jpg");
     res.type("image/jpg");
-})
+});
 
 app.get("/tardigrado.jpg", (req, res) => {
     res.sendFile(__dirname + "/immagini/tardigrado.jpg");
     res.type("image/jpg");
-})
+});
 
 app.get("/locandinarot.jpg", (req, res) => {
     res.sendFile(__dirname + "/immagini/locandinarot.jpg");
     res.type("image/jpg");
+});
+
+app.get("/logo.svg", (req, res) => {
+    res.sendFile(__dirname + "/logo.svg");
+    res.type("image/svg+xml");
 })
 app.listen(8080);
