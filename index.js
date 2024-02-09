@@ -22,5 +22,18 @@ app.get("/script.js", (req, res) => {
     res.type("application/javascript");
 });
 
+app.get("/diatomea.jpg", (req, res) => {
+    res.sendFile(__dirname + "/immagini/diatomea.jpg");
+    res.type("image/jpg");
+})
 
+app.get("/tardigrado.jpg", (req, res) => {
+    res.sendFile(__dirname + "/immagini/tardigrado.jpg");
+    res.type("image/jpg");
+})
+
+app.get("/locandinarot.jpg", (req, res) => {
+    res.sendFile(__dirname + "/immagini/locandinarot.jpg");
+    res.type("image/jpg");
+})
 app.listen(8080);
