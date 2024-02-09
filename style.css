@@ -247,7 +247,6 @@ div#scroll {
     right: 0;
     height: 100%;
     background-color: #ff000000;
-    display: flex;
 }
 
 span#goal {
