@@ -390,6 +390,13 @@ span#snippets {
     .box {
         visibility: visible !important;
     }
+    #inf {
+        visibility: hidden !important;
+    }
+
+    #downl {
+        visibility: hidden !important;
+    }
     #mmenu {
         visibility: hidden !important;
     }
