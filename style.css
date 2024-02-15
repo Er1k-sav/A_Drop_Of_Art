@@ -378,6 +378,9 @@ span#snippets {
     #mmenu {
         visibility: visible !important;
     }
+    .box {
+        visibility: hidden !important;
+    }
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
 @media (min-width:641px)  { 
