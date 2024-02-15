@@ -387,6 +387,9 @@ span#snippets {
     #menu {
         visibility: visible !important;
     }
+    .box {
+        visibility: visible !important;
+    }
     #mmenu {
         visibility: hidden !important;
     }
