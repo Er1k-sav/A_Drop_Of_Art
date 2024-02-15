@@ -187,7 +187,7 @@ body {
     }
   }
   
-  div#menu {
+  #menu {
     width: 50%;
     height: 50%;
     background-color: #0000001a;
@@ -199,6 +199,12 @@ body {
     visibility: hidden;
     z-index: 7;
     transition: 200ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#mmenu {
+    visibility: hidden;
 }
 
 div#scroll {
